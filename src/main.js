@@ -22,8 +22,11 @@ Vue.mixin({
     openLink: function (whereTo) {
       if (this.$router.currentRoute.path !== '/' + whereTo) this.$router.push(whereTo)
     },
-    openMaps: function () {
-      window.open("https://goo.gl/maps/ZihjUN7U3dJenW7q8", "_blank")
+    openMaps: function (location) {
+      if (location === 'jogja')
+        window.open("https://goo.gl/maps/cRY4vrfU44oT75xeA", "_blank")
+      if (location === 'citra')
+        window.open("https://goo.gl/maps/UX2PvLbA5RbUFb417", "_blank")
     },
     openWA: function () {
       window.open('https://wa.me/6281385846234', '_blank')

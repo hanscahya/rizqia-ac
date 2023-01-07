@@ -47,4 +47,10 @@ export default {
 </script>
 
 <style scoped>
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
 </style>

@@ -10,27 +10,88 @@
       </b-col>
 
       <b-col style="height:100vh; overflow-y: scroll;">
-        <b-row @click="openMaps">
-          <b-col class="cb all bg-img-cover" style="height:70vh; cursor:pointer;" :style="{ 'background-image': `url(${require('@/assets/img/maps.png')})` }">
+        <b-row @click="openMaps('citra')">
+          <b-col
+            class="cb all bg-img-cover"
+            style="height:30vh; cursor:pointer;"
+            :style="{ 'background-image': `url(${require('@/assets/img/maps-citra.png')})` }"
+          />
+        </b-row>
+        <b-row class="mt-2 text-left">
+          <b-col cols="12" lg="6" class="bb text-left">
+            <b>Service AC Citra Raya Cikupa</b>
+          </b-col>
+          <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6281385846234&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
+          </b-col>
+          <b-col cols="12" lg="6" class="bb d-block d-sm-none">
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6281385846234&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
+          </b-col>
+        </b-row>        
+        <b-row>
+          <b-col class="px-3 text-left">
+            PGMG+35R, Jl. Citra Raya Boulevard, Cikupa, Kab. Tangerang
           </b-col>
         </b-row>
 
-        <b-row class="my-3 text-justify">
+        <b-row class="justify-content-center">
+          <b-col cols="10" class="my-3 border-bottom" />
+        </b-row>
+
+        <b-row @click="openMaps('jogja')">
+          <b-col
+            class="cb all bg-img-cover"
+            style="height:30vh; cursor:pointer;"
+            :style="{ 'background-image': `url(${require('@/assets/img/maps-jogja.png')})` }"
+          />
+        </b-row>
+        <b-row class="mt-2 text-left">
+          <b-col cols="12" lg="6" class="bb text-left">
+            <b>Service AC Jogjakarta</b>
+          </b-col>
+          <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
+          </b-col>
+          <b-col cols="12" lg="6" class="bb d-block d-sm-none">
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col class="px-3 text-left">
+            Perumahan Pal Gading Regency, Blok E no. 15, Wonosari, Yogyakarta
+          </b-col>
+        </b-row>
+
+        <b-row class="justify-content-center">
+          <b-col cols="10" class="my-3 border-bottom" />
+        </b-row>
+
+        <b-row class="text-justify">
           <b-col class="p-3 cb all">
             <div>
-              <b-row>
-                <b-col cols="12" lg="6" class="bb text-left">
-                  <b>Service AC Citra Raya Cikupa</b>
+              <div class="mt-2">
+                <div class="bb">Jenis AC yang kami kuasai</div>
+                <div>Instalasi, perawatan, perbaikan & pengadaan</div>
+              </div>
+              <b-row class="mt-2 text-center justify-content-center">
+                <b-col cols="10" lg="4" class="p-2">
+                  <b-card>AC Split wall mounted</b-card>
                 </b-col>
-                <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
-                  <b>Telp/WA 081385846234</b>
+                <b-col cols="10" lg="4" class="p-2">
+                  <b-card>AC Split multi</b-card>
                 </b-col>
-                <b-col cols="12" lg="6" class="bb d-block d-sm-none">
-                  <b>Telp/WA 081385846234</b>
+                <b-col cols="10" lg="4" class="p-2">
+                  <b-card>AC Split duct</b-card>
+                </b-col>
+                <b-col cols="10" lg="4" class="p-2">
+                  <b-card>AC Cassette</b-card>
+                </b-col>
+                <b-col cols="10" lg="4" class="p-2">
+                  <b-card>AC floor standing</b-card>
                 </b-col>
               </b-row>
 
-              <div class="mt-3">Pengadaan AC, Bongkar pasang AC, Isi Freon, Perawatan AC, dan Perbaikan AC.</div>
+              <div class="mt-5">Pengadaan AC, Bongkar pasang AC, Isi Freon, Perawatan AC, dan Perbaikan AC.</div>
               <div class="mt-3">
                 <b>Rizqia AC</b> mempersembahkan pelayanan service AC profesional dengan harga terjangkau, Kami berkomitmen melayani dengan tulus dan mempersembahkan hasil terbaik yang maksimal.
               </div>
@@ -41,7 +102,7 @@
           </b-col>
         </b-row>
 
-        <b-row class="text-left">
+        <b-row class="mt-3 text-left">
           <b-col cols="12">
             <span class="bb">Layanan Kami</span>
           </b-col>
@@ -114,6 +175,17 @@
                 Service AC BSD 081385846234 | Service AC Legok 081385846234
               </div>
             </div>
+            <div class="mt-3">
+              <div class="bb text-center">
+                Kini kami hadir di Jogjakarta!
+              </div>
+              <div class="text-justify" style="font-style:italic; font-size:14px;">
+                Service AC Jogja telp/wa 087864840007 | Service AC di Jogjakarta telp/wa 087864840007 |<br>
+                Service AC Gunung Kidul telp/wa 087864840007 | Service AC Playen telp/wa 087864840007 |<br>
+                Service AC DIY telp/wa 087864840007 | Service AC Wonosari 087864840007 |<br>
+                Service AC Gading Serpong telp/wa 087864840007 | Service AC Cisauk 087864840007 |<br>
+              </div>
+            </div>
           </b-col>
         </b-row>
 
@@ -122,8 +194,8 @@
             <span class="bb">Kumpulan Video Kegiatan Kami</span>
           </b-col>
         </b-row>
-        <b-row class="my-4">
-          <b-col v-for="(video, i) in videos" :key="i" cols="6" lg="4" style="height:60vh; padding:15px;">
+        <b-row class="my-4 justify-content-center">
+          <b-col v-for="(video, i) in videos" :key="i" cols="10" lg="6" style="height:60vh; padding:15px;">
             <div class="vid-container shadow">
               <video controls class="vid height">
                 <source :src="require(`@/assets/video/${video}`)" type="video/mp4">
@@ -254,6 +326,16 @@ export default {
   data () {
     return {
       images: [
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-1.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-2.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-3.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-5.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-6.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-7.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-8.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-9.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-10.jpg'),
+        require('@/assets/img/kegiatan/service-ac-jogjakarta-11.jpg'),
         require('@/assets/img/kegiatan/service-ac-citra-raya-1.jpeg'),
         require('@/assets/img/kegiatan/service-ac-citra-raya-2.jpeg'),
         require('@/assets/img/kegiatan/service-ac-citra-raya-3.jpeg'),
