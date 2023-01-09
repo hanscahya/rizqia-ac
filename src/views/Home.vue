@@ -47,7 +47,7 @@
         </b-row>
         <b-row class="mt-2 text-left">
           <b-col cols="12" lg="6" class="bb text-left">
-            <b>Service AC Jogjakarta</b>
+            <b>Service AC Yogjakarta</b>
           </b-col>
           <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
             <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
@@ -93,7 +93,7 @@
 
               <div class="mt-5">Pengadaan AC, Bongkar pasang AC, Isi Freon, Perawatan AC, dan Perbaikan AC.</div>
               <div class="mt-3">
-                <b>Rizqia AC</b> mempersembahkan pelayanan service AC profesional dengan harga terjangkau, Kami berkomitmen melayani dengan tulus dan mempersembahkan hasil terbaik yang maksimal.
+                <b>Rizqia AC</b> mempersembahkan pelayanan service AC profesional dengan harga terjangkau, Kami berkomitmen melayani dengan tulus dan mempersembahkan hasil terbaik yang maksimal. Dikerjakan oleh teknisi berpengalaman, dan bersertifikasi kompeten.
               </div>
               <div class="mt-3">
                 <b>Rizqia AC</b> bergerak dalam layanan jasa bongkar pasang AC, Perawatan/cuci AC, Perbaikan AC, isi freon, pengadaan AC baru dan bekas berkualitas, serta melayani tukar tambah AC lama anda dengan AC baru dengan harga yang bersaing.
@@ -168,23 +168,36 @@
                 Melayani secara profesional dan sepenuh hati
               </div>
               <div class="text-justify" style="font-style:italic; font-size:14px;">
-                Service AC Citra Raya telp/wa 081385846234 | Service AC di Cikupa telp/wa 081385846234 |<br>
-                Service AC Suvarna Sutra telp/wa 081385846234 | Service AC Suvarna Padi telp/wa 081385846234 |<br>
-                Service AC Panongan telp/wa 081385846234 | Service AC Curug 081385846234 |<br>
-                Service AC Gading Serpong telp/wa 081385846234 | Service AC Cisauk 081385846234 |<br>
+                Service AC Citra Raya telp/wa 081385846234 | Service AC di Cikupa telp/wa 081385846234 |<br />
+                Service AC Suvarna Sutra telp/wa 081385846234 | Service AC Suvarna Padi telp/wa 081385846234 |<br />
+                Service AC Panongan telp/wa 081385846234 | Service AC Curug 081385846234 |<br />
+                Service AC Gading Serpong telp/wa 081385846234 | Service AC Cisauk 081385846234 |<br />
                 Service AC BSD 081385846234 | Service AC Legok 081385846234
               </div>
             </div>
             <div class="mt-3">
               <div class="bb text-center">
-                Kini kami hadir di Jogjakarta!
+                Kini kami hadir di Yogjakarta!
               </div>
               <div class="text-justify" style="font-style:italic; font-size:14px;">
-                Service AC Jogja telp/wa 087864840007 | Service AC di Jogjakarta telp/wa 087864840007 |<br>
-                Service AC Gunung Kidul telp/wa 087864840007 | Service AC Playen telp/wa 087864840007 |<br>
-                Service AC DIY telp/wa 087864840007 | Service AC Wonosari 087864840007 |<br>
-                Service AC Gading Serpong telp/wa 087864840007 | Service AC Cisauk 087864840007 |<br>
+                Service AC Bantul 087864840007 | Service AC Sleman 087864840007 |<br />
+                Service AC Jogjakarta 087864840007 | Service AC Kota Gede 087864840007 |<br />
+                Service AC Jogja 087864840007 | Service AC Gunung Kidul 087864840007 |<br />
+                Service AC Wonosari 087864840007 | Service AC Bangun tapan 087864840007 |<br />
+                Service AC Gedong Kuning 087864840007 | Service AC Kulonprogo 087864840007
               </div>
+            </div>
+          </b-col>
+        </b-row>
+
+        <b-row class="my-4">
+          <b-col cols="12">
+            <span class="bb">Sertifikasi Kami</span>
+          </b-col>
+          <b-col class="cb all">
+            <div>
+              <img class="image slideshow" v-for="(image, i) in certifications" :src="image" :key="i" @click="index = i">
+              <vue-gallery-slideshow :images="certifications" :index="index" @close="index = null" />
             </div>
           </b-col>
         </b-row>
@@ -325,6 +338,12 @@ export default {
   },
   data () {
     return {
+      certifications: [
+        require('@/assets/img/certificate/rizqia-ac-gree-authorized-dealer.jpg'),
+        require('@/assets/img/certificate/rizqia-ac-panasonic-certificate.jpg'),
+        require('@/assets/img/certificate/rizqia-ac-sertifikat-kompetensi.jpg'),
+      ],
+
       images: [
         require('@/assets/img/kegiatan/service-ac-jogjakarta-1.jpg'),
         require('@/assets/img/kegiatan/service-ac-jogjakarta-2.jpg'),
