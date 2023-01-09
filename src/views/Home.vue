@@ -10,7 +10,7 @@
       </b-col>
 
       <b-col style="height:100vh; overflow-y: scroll;">
-        <b-row @click="openMaps('citra')">
+        <!-- <b-row @click="openMaps('citra')">
           <b-col
             class="cb all bg-img-cover"
             style="height:30vh; cursor:pointer;"
@@ -36,18 +36,18 @@
 
         <b-row class="justify-content-center">
           <b-col cols="10" class="my-3 border-bottom" />
-        </b-row>
+        </b-row> -->
 
         <b-row @click="openMaps('jogja')">
           <b-col
             class="cb all bg-img-cover"
-            style="height:30vh; cursor:pointer;"
+            style="height:70vh; cursor:pointer;"
             :style="{ 'background-image': `url(${require('@/assets/img/maps-jogja.png')})` }"
           />
         </b-row>
         <b-row class="mt-2 text-left">
           <b-col cols="12" lg="6" class="bb text-left">
-            <b>Service AC Yogjakarta</b>
+            <b>Service AC Yogyakarta</b>
           </b-col>
           <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
             <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
@@ -167,22 +167,22 @@
               <div class="bb text-center">
                 Melayani secara profesional dan sepenuh hati
               </div>
-              <div class="text-justify" style="font-style:italic; font-size:14px;">
+              <!-- <div class="text-justify" style="font-style:italic; font-size:14px;">
                 Service AC Citra Raya telp/wa 081385846234 | Service AC di Cikupa telp/wa 081385846234 |<br />
                 Service AC Suvarna Sutra telp/wa 081385846234 | Service AC Suvarna Padi telp/wa 081385846234 |<br />
                 Service AC Panongan telp/wa 081385846234 | Service AC Curug 081385846234 |<br />
                 Service AC Gading Serpong telp/wa 081385846234 | Service AC Cisauk 081385846234 |<br />
                 Service AC BSD 081385846234 | Service AC Legok 081385846234
-              </div>
+              </div> -->
             </div>
-            <div class="mt-3">
+            <div>
               <div class="bb text-center">
-                Kini kami hadir di Yogjakarta!
+                Kini kami hadir di Yogyakarta!
               </div>
-              <div class="text-justify" style="font-style:italic; font-size:14px;">
+              <div class="mt-2 text-justify" style="font-style:italic; font-size:14px;">
                 Service AC Bantul 087864840007 | Service AC Sleman 087864840007 |<br />
-                Service AC Jogjakarta 087864840007 | Service AC Kota Gede 087864840007 |<br />
-                Service AC Jogja 087864840007 | Service AC Gunung Kidul 087864840007 |<br />
+                Service AC Yogyakarta 087864840007 | Service AC Kota Gede 087864840007 |<br />
+                Service AC Yogya 087864840007 | Service AC Gunung Kidul 087864840007 |<br />
                 Service AC Wonosari 087864840007 | Service AC Bangun tapan 087864840007 |<br />
                 Service AC Gedong Kuning 087864840007 | Service AC Kulonprogo 087864840007
               </div>
