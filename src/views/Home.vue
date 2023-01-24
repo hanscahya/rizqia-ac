@@ -22,10 +22,10 @@
             <b>Service AC Citra Raya Cikupa</b>
           </b-col>
           <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
-            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6281385846234&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
           </b-col>
           <b-col cols="12" lg="6" class="bb d-block d-sm-none">
-            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6281385846234&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
+            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-813-8584-6234</a></b>
           </b-col>
         </b-row>        
         <b-row>
@@ -167,13 +167,6 @@
               <div class="bb text-center">
                 Melayani secara profesional dan sepenuh hati
               </div>
-              <!-- <div class="text-justify" style="font-style:italic; font-size:14px;">
-                Service AC Citra Raya telp/wa 081385846234 | Service AC di Cikupa telp/wa 081385846234 |<br />
-                Service AC Suvarna Sutra telp/wa 081385846234 | Service AC Suvarna Padi telp/wa 081385846234 |<br />
-                Service AC Panongan telp/wa 081385846234 | Service AC Curug 081385846234 |<br />
-                Service AC Gading Serpong telp/wa 081385846234 | Service AC Cisauk 081385846234 |<br />
-                Service AC BSD 081385846234 | Service AC Legok 081385846234
-              </div> -->
             </div>
             <div>
               <div class="bb text-center">

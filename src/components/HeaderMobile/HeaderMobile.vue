@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <b-col cols="3" class="cb all">
-      <a class="mt-5 clickable" href="tel:+6281385846234">
+      <a class="mt-5 clickable" href="tel:+6287864840007">
         <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(31, 119, 154)" width="30" height="30" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
       </a>
     </b-col>

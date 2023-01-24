@@ -29,7 +29,7 @@ Vue.mixin({
         window.open("https://goo.gl/maps/UX2PvLbA5RbUFb417", "_blank")
     },
     openWA: function () {
-      window.open('https://wa.me/6281385846234', '_blank')
+      window.open('https://wa.me/6287864840007', '_blank')
     }
   }
 })
