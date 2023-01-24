@@ -312,7 +312,7 @@
             <br>
             Mau tau jawabannya ????
             <br>
-            Hubungi kami Rizqia AC di 0813 8584 6234
+            Hubungi kami Rizqia AC di 0878 6484 0007
           </b-col>
         </b-row>
       </b-col>

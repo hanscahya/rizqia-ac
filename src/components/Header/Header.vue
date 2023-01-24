@@ -14,7 +14,7 @@
           Segera Hubungi Kami
         </div>
         <div>
-          <a href="tel:+6281385846234" style="font-weight:600; color:gold;">0813 8584 6234</a>
+          <a href="tel:+6281385846234" style="font-weight:600; color:gold;">0878 6484 0007</a>
         </div>
         <div>
           <span class="clickable" @click="openWA">
