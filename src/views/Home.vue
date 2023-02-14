@@ -42,7 +42,7 @@
           <b-col
             class="cb all bg-img-cover"
             style="height:70vh; cursor:pointer;"
-            :style="{ 'background-image': `url(${require('@/assets/img/maps-jogja.png')})` }"
+            :style="{ 'background-image': `url(${require('@/assets/img/maps-jogja.jpg')})` }"
           />
         </b-row>
         <b-row class="mt-2 text-left">
@@ -58,7 +58,7 @@
         </b-row>
         <b-row>
           <b-col class="px-3 text-left">
-            Perumahan Pal Gading Regency, Blok E no. 15, Wonosari, Yogyakarta
+            Paleman KG 1 no. 233, Rejowinangun, Kotagede, Yogyakarta. 55171
           </b-col>
         </b-row>
 
