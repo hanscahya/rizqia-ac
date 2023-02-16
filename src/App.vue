@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E26HY48MGL">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E26HY48MGL');
+</script>
+
 <script>
 export default {
   name: 'App'
