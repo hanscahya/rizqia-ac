@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '@/views/Home'
+import ContactUs from '@/views/ContactUs'
 import TipsMerawatAC from '@/views/TipsMerawatAC'
 import TipsMembeliAC from '@/views/TipsMembeliAC'
 import ACMatiTibaTiba from '@/views/ACMatiTibaTiba'
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/contact-ud',
+      name: 'ContactUs',
+      component: ContactUs
     },
     {
       path: '/tips-merawat-ac',
