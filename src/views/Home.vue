@@ -38,30 +38,6 @@
           <b-col cols="10" class="my-3 border-bottom" />
         </b-row>
 
-        <b-row @click="openMaps('jogja')">
-          <b-col
-            class="cb all bg-img-cover"
-            style="height:30vh; cursor:pointer;"
-            :style="{ 'background-image': `url(${require('@/assets/img/maps-jogja.png')})` }"
-          />
-        </b-row>
-        <b-row class="mt-2 text-left">
-          <b-col cols="12" lg="6" class="bb text-left">
-            <b>Service AC Yogjakarta</b>
-          </b-col>
-          <b-col cols="12" lg="6" class="d-none d-sm-block bb text-right">
-            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
-          </b-col>
-          <b-col cols="12" lg="6" class="bb d-block d-sm-none">
-            <b>Telp/WA <a href="https://api.whatsapp.com/send/?phone=6287864840007&text&type=phone_number&app_absent=0">+62-878-6484-0007</a></b>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col class="px-3 text-left">
-            Perumahan Pal Gading Regency, Blok E no. 15, Wonosari, Yogyakarta
-          </b-col>
-        </b-row>
-
         <b-row class="justify-content-center">
           <b-col cols="10" class="my-3 border-bottom" />
         </b-row>
